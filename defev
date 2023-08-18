@@ -1,0 +1,784 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+
+
+local Window = Library.CreateLib("Skibidi toilet tower defense", "DarkTheme")
+
+
+local Tab = Window:NewTab("Free gamepass")
+
+
+
+local Section = Tab:NewSection("Free gamepass")
+
+
+Section:NewButton("Equip Upgraded Titan Cameraman", "ButtonInfo", function()    
+local A_1 = "Upgraded Titan Cameraman"
+local Event = game:GetService("ReplicatedStorage").InteractItem
+Event:InvokeServer(A_1)
+
+end)
+
+
+
+Section:NewButton("Equip Titan Tv Man", "ButtonInfo", function()    
+local A_1 = "Titan TV-Man"
+local Event = game:GetService("ReplicatedStorage").InteractItem
+Event:InvokeServer(A_1)
+
+end)
+
+
+
+local Tab = Window:NewTab("Free Charaters(Grasslands)")
+
+
+
+local Section = Tab:NewSection("Upgraded Titan Cameramen(Cost 2500$)")
+
+
+
+Section:NewButton("Place Position 1", "ButtonInfo", function()
+    local A_1 = "Upgraded Titan Cameraman"
+local A_2 = CFrame.new(-6.63511658, 1.8068198, 5.41565704, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+end)
+
+
+
+Section:NewButton("Place Position 2", "ButtonInfo", function()
+	
+local A_1 = "Upgraded Titan Cameraman"
+local A_2 = CFrame.new(-13.530407, 1.8068198, -6.59859467, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 3", "ButtonInfo", function()
+	local A_1 = "Upgraded Titan Cameraman"
+local A_2 = CFrame.new(-3.1808815, 1.8068198, 5.13648415, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 4", "ButtonInfo", function()
+	local A_1 = "Upgraded Titan Cameraman"
+local A_2 = CFrame.new(-1.68215179, 1.8068198, -7.03336334, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 5", "ButtonInfo", function()
+	local A_1 = "Upgraded Titan Cameraman"
+local A_2 = CFrame.new(41.0129318, 1.8068198, -0.306930542, 1.19248806e-08, 0, -1, 0, 1, 2.35506282e-23, 1, 0, 1.19248806e-08)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+local Section = Tab:NewSection("Titan Cameraman(Cost 2000$)")
+
+Section:NewButton("Place Position 1", "ButtonInfo", function()
+    local A_1 = "Titan Cameraman"
+local A_2 = CFrame.new(-6.63511658, 1.8068198, 5.41565704, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+end)
+
+
+
+Section:NewButton("Place Position 2", "ButtonInfo", function()
+	
+local A_1 = "Titan Cameraman"
+local A_2 = CFrame.new(-13.530407, 1.8068198, -6.59859467, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 3", "ButtonInfo", function()
+	local A_1 = "Titan Cameraman"
+local A_2 = CFrame.new(-3.1808815, 1.8068198, 5.13648415, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 4", "ButtonInfo", function()
+	local A_1 = "Titan Cameraman"
+local A_2 = CFrame.new(-1.68215179, 1.8068198, -7.03336334, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 5", "ButtonInfo", function()
+	local A_1 = "Titan Cameraman"
+local A_2 = CFrame.new(41.0129318, 1.8068198, -0.306930542, 1.19248806e-08, 0, -1, 0, 1, 2.35506282e-23, 1, 0, 1.19248806e-08)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+local Section = Tab:NewSection("Titan Speakerman(Cost 1000$)")
+
+
+
+Section:NewButton("Place Position 1", "ButtonInfo", function()
+    local A_1 = "TitanSpeakerman"
+local A_2 = CFrame.new(-6.63511658, 1.8068198, 5.41565704, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+end)
+
+
+
+Section:NewButton("Place Position 2", "ButtonInfo", function()
+	
+local A_1 = "TitanSpeakerman"
+local A_2 = CFrame.new(-13.530407, 1.8068198, -6.59859467, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 3", "ButtonInfo", function()
+	local A_1 = "TitanSpeakerman"
+local A_2 = CFrame.new(-3.1808815, 1.8068198, 5.13648415, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 4", "ButtonInfo", function()
+	local A_1 = "TitanSpeakerman"
+local A_2 = CFrame.new(-1.68215179, 1.8068198, -7.03336334, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 5", "ButtonInfo", function()
+	local A_1 = "TitanSpeakerman"
+local A_2 = CFrame.new(41.0129318, 1.8068198, -0.306930542, 1.19248806e-08, 0, -1, 0, 1, 2.35506282e-23, 1, 0, 1.19248806e-08)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+local Section = Tab:NewSection("Speakerman(Cost 100$)")
+
+
+
+Section:NewButton("Place Position 1", "ButtonInfo", function()
+    local A_1 = "Speakerman"
+local A_2 = CFrame.new(-6.63511658, 1.8068198, 5.41565704, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+end)
+
+
+
+Section:NewButton("Place Position 2", "ButtonInfo", function()
+	
+local A_1 = "Speakerman"
+local A_2 = CFrame.new(-13.530407, 1.8068198, -6.59859467, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 3", "ButtonInfo", function()
+	local A_1 = "Speakerman"
+local A_2 = CFrame.new(-3.1808815, 1.8068198, 5.13648415, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 4", "ButtonInfo", function()
+	local A_1 = "Speakerman"
+local A_2 = CFrame.new(-1.68215179, 1.8068198, -7.03336334, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 5", "ButtonInfo", function()
+	local A_1 = "Speakerman"
+local A_2 = CFrame.new(41.0129318, 1.8068198, -0.306930542, 1.19248806e-08, 0, -1, 0, 1, 2.35506282e-23, 1, 0, 1.19248806e-08)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+local Section = Tab:NewSection("TV-Woman(Cost 350$)")
+
+
+
+Section:NewButton("Place Position 1", "ButtonInfo", function()
+    local A_1 = "TV-Woman"
+local A_2 = CFrame.new(-6.63511658, 1.8068198, 5.41565704, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+end)
+
+
+
+Section:NewButton("Place Position 2", "ButtonInfo", function()
+	
+local A_1 = "TV-Woman"
+local A_2 = CFrame.new(-13.530407, 1.8068198, -6.59859467, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 3", "ButtonInfo", function()
+	local A_1 = "TV-Woman"
+local A_2 = CFrame.new(-3.1808815, 1.8068198, 5.13648415, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 4", "ButtonInfo", function()
+	local A_1 = "TV-Woman"
+local A_2 = CFrame.new(-1.68215179, 1.8068198, -7.03336334, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 5", "ButtonInfo", function()
+	local A_1 = "TV-Woman"
+local A_2 = CFrame.new(41.0129318, 1.8068198, -0.306930542, 1.19248806e-08, 0, -1, 0, 1, 2.35506282e-23, 1, 0, 1.19248806e-08)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+local Section = Tab:NewSection("Scientist Cameraman(Cost 300$)")
+
+
+
+Section:NewButton("Place Position 1", "ButtonInfo", function()
+    local A_1 = "Scientist Cameraman"
+local A_2 = CFrame.new(-6.63511658, 1.8068198, 5.41565704, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+end)
+
+
+
+Section:NewButton("Place Position 2", "ButtonInfo", function()
+	
+local A_1 = "Scientist Cameraman"
+local A_2 = CFrame.new(-13.530407, 1.8068198, -6.59859467, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 3", "ButtonInfo", function()
+	local A_1 = "Scientist Cameraman"
+local A_2 = CFrame.new(-3.1808815, 1.8068198, 5.13648415, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 4", "ButtonInfo", function()
+	local A_1 = "Scientist Cameraman"
+local A_2 = CFrame.new(-1.68215179, 1.8068198, -7.03336334, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 5", "ButtonInfo", function()
+	local A_1 = "Scientist Cameraman"
+local A_2 = CFrame.new(41.0129318, 1.8068198, -0.306930542, 1.19248806e-08, 0, -1, 0, 1, 2.35506282e-23, 1, 0, 1.19248806e-08)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+local Section = Tab:NewSection("Beach Cameraman(Cost 500$)")
+
+
+
+Section:NewButton("Place Position 1", "ButtonInfo", function()
+    local A_1 = "Beach Cameraman"
+local A_2 = CFrame.new(-6.63511658, 1.8068198, 5.41565704, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+end)
+
+
+
+Section:NewButton("Place Position 2", "ButtonInfo", function()
+	
+local A_1 = "Beach Cameraman"
+local A_2 = CFrame.new(-13.530407, 1.8068198, -6.59859467, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 3", "ButtonInfo", function()
+	local A_1 = "Beach Cameraman"
+local A_2 = CFrame.new(-3.1808815, 1.8068198, 5.13648415, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 4", "ButtonInfo", function()
+	local A_1 = "Beach Cameraman"
+local A_2 = CFrame.new(-1.68215179, 1.8068198, -7.03336334, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 5", "ButtonInfo", function()
+	local A_1 = "Beach Cameraman"
+local A_2 = CFrame.new(41.0129318, 1.8068198, -0.306930542, 1.19248806e-08, 0, -1, 0, 1, 2.35506282e-23, 1, 0, 1.19248806e-08)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+local Tab = Window:NewTab("Free Charaters(City)")
+
+
+
+local Section = Tab:NewSection("Upgraded Titan Cameramen(Cost 2500$)")
+
+
+
+Section:NewButton("Place Position 1", "ButtonInfo", function()
+    local A_1 = "Upgraded Titan Cameraman"
+local A_2 = CFrame.new(-88.3841324, 9.60026836, 21.1938438, 0.401443601, -0.0229487196, 0.915596187, 0.0570723079, 0.998370051, 0, -0.914103806, 0.0522551872, 0.402099013)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+end)
+
+
+
+Section:NewButton("Place Position 2", "ButtonInfo", function()
+	
+local A_1 = "Upgraded Titan Cameraman"
+local A_2 = CFrame.new(-89.3802719, 9.10560799, 8.49427032, -0.999978304, 0, 0.00664676027, 0, 1, 0, -0.00664676027, 0, -0.999978304)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 3", "ButtonInfo", function()
+	local A_1 = "Upgraded Titan Cameraman"
+local A_2 = CFrame.new(-77.2238998, 9.60135174, 21.7730198, 0.496486098, -0.00378020806, 0.868036509, 0.00761370454, 0.999971032, 0, -0.868011355, 0.00660897372, 0.496500492)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 4", "ButtonInfo", function()
+	local A_1 = "Upgraded Titan Cameraman"
+local A_2 = CFrame.new(-76.9371948, 9.60136986, 8.28073215, -0.906402171, 0.00345058623, -0.422401696, 0.00380687648, 0.999992728, 0, 0.422398627, -0.0016080311, -0.906408787)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 5", "ButtonInfo", function()
+	local A_1 = "Upgraded Titan Cameraman"
+local A_2 = CFrame.new(-38.8071899, 9.6003933, 15.2627163, -0.817015171, 0.00311029865, 0.576607943, 0.00380687672, 0.999992728, 0, -0.57660377, 0.00219507539, -0.817021132)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+Section:NewLabel("Titan Cameraman(Cost 2000$)")
+
+
+
+
+Section:NewButton("Place Position 1", "ButtonInfo", function()
+    local A_1 = "Titan Cameraman"
+local A_2 = CFrame.new(-88.3841324, 9.60026836, 21.1938438, 0.401443601, -0.0229487196, 0.915596187, 0.0570723079, 0.998370051, 0, -0.914103806, 0.0522551872, 0.402099013)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+end)
+
+
+
+Section:NewButton("Place Position 2", "ButtonInfo", function()
+	
+local A_1 = "Titan Cameraman"
+local A_2 = CFrame.new(-89.3802719, 9.10560799, 8.49427032, -0.999978304, 0, 0.00664676027, 0, 1, 0, -0.00664676027, 0, -0.999978304)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 3", "ButtonInfo", function()
+	local A_1 = "Titan Cameraman"
+local A_2 = CFrame.new(-77.2238998, 9.60135174, 21.7730198, 0.496486098, -0.00378020806, 0.868036509, 0.00761370454, 0.999971032, 0, -0.868011355, 0.00660897372, 0.496500492)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 4", "ButtonInfo", function()
+	local A_1 = "Titan Cameraman"
+local A_2 = CFrame.new(-76.9371948, 9.60136986, 8.28073215, -0.906402171, 0.00345058623, -0.422401696, 0.00380687648, 0.999992728, 0, 0.422398627, -0.0016080311, -0.906408787)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 5", "ButtonInfo", function()
+	local A_1 = "Titan Cameraman"
+local A_2 = CFrame.new(-38.8071899, 9.6003933, 15.2627163, -0.817015171, 0.00311029865, 0.576607943, 0.00380687672, 0.999992728, 0, -0.57660377, 0.00219507539, -0.817021132)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+Section:NewLabel("Titan Speakerman(Cost 1000$)")
+
+
+
+
+Section:NewButton("Place Position 1", "ButtonInfo", function()
+    local A_1 = "TitanSpeakerman"
+local A_2 = CFrame.new(-88.3841324, 9.60026836, 21.1938438, 0.401443601, -0.0229487196, 0.915596187, 0.0570723079, 0.998370051, 0, -0.914103806, 0.0522551872, 0.402099013)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+end)
+
+
+
+Section:NewButton("Place Position 2", "ButtonInfo", function()
+	
+local A_1 = "TitanSpeakerman"
+local A_2 = CFrame.new(-89.3802719, 9.10560799, 8.49427032, -0.999978304, 0, 0.00664676027, 0, 1, 0, -0.00664676027, 0, -0.999978304)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 3", "ButtonInfo", function()
+	local A_1 = "TitanSpeakerman"
+local A_2 = CFrame.new(-77.2238998, 9.60135174, 21.7730198, 0.496486098, -0.00378020806, 0.868036509, 0.00761370454, 0.999971032, 0, -0.868011355, 0.00660897372, 0.496500492)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 4", "ButtonInfo", function()
+	local A_1 = "TitanSpeakerman"
+local A_2 = CFrame.new(-76.9371948, 9.60136986, 8.28073215, -0.906402171, 0.00345058623, -0.422401696, 0.00380687648, 0.999992728, 0, 0.422398627, -0.0016080311, -0.906408787)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 5", "ButtonInfo", function()
+	local A_1 = "TitanSpeakerman"
+local A_2 = CFrame.new(-38.8071899, 9.6003933, 15.2627163, -0.817015171, 0.00311029865, 0.576607943, 0.00380687672, 0.999992728, 0, -0.57660377, 0.00219507539, -0.817021132)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+Section:NewLabel("Speakerman(Cost 100$)")
+
+
+
+
+Section:NewButton("Place Position 1", "ButtonInfo", function()
+    local A_1 = "Speakerman"
+local A_2 = CFrame.new(-88.3841324, 9.60026836, 21.1938438, 0.401443601, -0.0229487196, 0.915596187, 0.0570723079, 0.998370051, 0, -0.914103806, 0.0522551872, 0.402099013)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+end)
+
+
+
+Section:NewButton("Place Position 2", "ButtonInfo", function()
+	
+local A_1 = "Speakerman"
+local A_2 = CFrame.new(-89.3802719, 9.10560799, 8.49427032, -0.999978304, 0, 0.00664676027, 0, 1, 0, -0.00664676027, 0, -0.999978304)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 3", "ButtonInfo", function()
+	local A_1 = "Speakerman"
+local A_2 = CFrame.new(-77.2238998, 9.60135174, 21.7730198, 0.496486098, -0.00378020806, 0.868036509, 0.00761370454, 0.999971032, 0, -0.868011355, 0.00660897372, 0.496500492)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 4", "ButtonInfo", function()
+	local A_1 = "Speakerman"
+local A_2 = CFrame.new(-76.9371948, 9.60136986, 8.28073215, -0.906402171, 0.00345058623, -0.422401696, 0.00380687648, 0.999992728, 0, 0.422398627, -0.0016080311, -0.906408787)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 5", "ButtonInfo", function()
+	local A_1 = "Speakerman"
+local A_2 = CFrame.new(-38.8071899, 9.6003933, 15.2627163, -0.817015171, 0.00311029865, 0.576607943, 0.00380687672, 0.999992728, 0, -0.57660377, 0.00219507539, -0.817021132)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+Section:NewLabel("TV-Woman(Cost 350$)")
+
+
+
+
+Section:NewButton("Place Position 1", "ButtonInfo", function()
+    local A_1 = "TV-Woman"
+local A_2 = CFrame.new(-88.3841324, 9.60026836, 21.1938438, 0.401443601, -0.0229487196, 0.915596187, 0.0570723079, 0.998370051, 0, -0.914103806, 0.0522551872, 0.402099013)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+end)
+
+
+
+Section:NewButton("Place Position 2", "ButtonInfo", function()
+	
+local A_1 = "TV-Woman"
+local A_2 = CFrame.new(-89.3802719, 9.10560799, 8.49427032, -0.999978304, 0, 0.00664676027, 0, 1, 0, -0.00664676027, 0, -0.999978304)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 3", "ButtonInfo", function()
+	local A_1 = "TV-Woman"
+local A_2 = CFrame.new(-77.2238998, 9.60135174, 21.7730198, 0.496486098, -0.00378020806, 0.868036509, 0.00761370454, 0.999971032, 0, -0.868011355, 0.00660897372, 0.496500492)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 4", "ButtonInfo", function()
+	local A_1 = "TV-Woman"
+local A_2 = CFrame.new(-76.9371948, 9.60136986, 8.28073215, -0.906402171, 0.00345058623, -0.422401696, 0.00380687648, 0.999992728, 0, 0.422398627, -0.0016080311, -0.906408787)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 5", "ButtonInfo", function()
+	local A_1 = "TV-Woman"
+local A_2 = CFrame.new(-38.8071899, 9.6003933, 15.2627163, -0.817015171, 0.00311029865, 0.576607943, 0.00380687672, 0.999992728, 0, -0.57660377, 0.00219507539, -0.817021132)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+Section:NewLabel("Scientist Cameraman(Cost 300$)")
+
+
+Section:NewButton("Place Position 1", "ButtonInfo", function()
+    local A_1 = "Scientist Cameraman"
+local A_2 = CFrame.new(-88.3841324, 9.60026836, 21.1938438, 0.401443601, -0.0229487196, 0.915596187, 0.0570723079, 0.998370051, 0, -0.914103806, 0.0522551872, 0.402099013)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+end)
+
+
+
+Section:NewButton("Place Position 2", "ButtonInfo", function()
+	
+local A_1 = "Scientist Cameraman"
+local A_2 = CFrame.new(-89.3802719, 9.10560799, 8.49427032, -0.999978304, 0, 0.00664676027, 0, 1, 0, -0.00664676027, 0, -0.999978304)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 3", "ButtonInfo", function()
+	local A_1 = "Scientist Cameraman"
+local A_2 = CFrame.new(-77.2238998, 9.60135174, 21.7730198, 0.496486098, -0.00378020806, 0.868036509, 0.00761370454, 0.999971032, 0, -0.868011355, 0.00660897372, 0.496500492)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 4", "ButtonInfo", function()
+	local A_1 = "Scientist Cameraman"
+local A_2 = CFrame.new(-76.9371948, 9.60136986, 8.28073215, -0.906402171, 0.00345058623, -0.422401696, 0.00380687648, 0.999992728, 0, 0.422398627, -0.0016080311, -0.906408787)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 5", "ButtonInfo", function()
+	local A_1 = "Scientist Cameraman"
+local A_2 = CFrame.new(-38.8071899, 9.6003933, 15.2627163, -0.817015171, 0.00311029865, 0.576607943, 0.00380687672, 0.999992728, 0, -0.57660377, 0.00219507539, -0.817021132)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewLabel("Beach Cameraman(Cost 500$)")
+
+
+
+
+Section:NewButton("Place Position 1", "ButtonInfo", function()
+    local A_1 = "Beach Cameraman"
+local A_2 = CFrame.new(-88.3841324, 9.60026836, 21.1938438, 0.401443601, -0.0229487196, 0.915596187, 0.0570723079, 0.998370051, 0, -0.914103806, 0.0522551872, 0.402099013)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+end)
+
+
+
+Section:NewButton("Place Position 2", "ButtonInfo", function()
+	
+local A_1 = "Beach Cameraman"
+local A_2 = CFrame.new(-89.3802719, 9.10560799, 8.49427032, -0.999978304, 0, 0.00664676027, 0, 1, 0, -0.00664676027, 0, -0.999978304)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 3", "ButtonInfo", function()
+	local A_1 = "Beach Cameraman"
+local A_2 = CFrame.new(-77.2238998, 9.60135174, 21.7730198, 0.496486098, -0.00378020806, 0.868036509, 0.00761370454, 0.999971032, 0, -0.868011355, 0.00660897372, 0.496500492)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 4", "ButtonInfo", function()
+	local A_1 = "Beach Cameraman"
+local A_2 = CFrame.new(-76.9371948, 9.60136986, 8.28073215, -0.906402171, 0.00345058623, -0.422401696, 0.00380687648, 0.999992728, 0, 0.422398627, -0.0016080311, -0.906408787)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
+
+
+
+Section:NewButton("Place Position 5", "ButtonInfo", function()
+	local A_1 = "Beach Cameraman"
+local A_2 = CFrame.new(-38.8071899, 9.6003933, 15.2627163, -0.817015171, 0.00311029865, 0.576607943, 0.00380687672, 0.999992728, 0, -0.57660377, 0.00219507539, -0.817021132)
+local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower
+Event:InvokeServer(A_1, A_2)
+
+end)
